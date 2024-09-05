@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+	text-align:center;
+	background: linear-gradient(122deg, rgb(253, 54, 133) 0.00%, rgb(254, 207, 215) 100.00%);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+	
+img{
+	width:20%;
+	height:20%;
+	
+}
+button{
+	width:50px;
+	height:50px;
+	margin-top:30px;
+	border-radius:10px;
+	border:1px;
+	font-size: xx-large;
+}
+input{
+	margin:30px;
+	height:30px;
+	border-radius:5px;
+	border:1px;
+}
+button:hover {
+    background-color: #e04850; /* Darker shade on hover */
+    color: #ffe0e0; /* Lighter text color on hover */
+    cursor: pointer;
+}
+h1 {
+    font-family: "Californian FB", serif;
+    color: white;
+}
+input{
+	background:grey;
+	color:white;
+	font-size:x-large;
+	width:30%;
+}
